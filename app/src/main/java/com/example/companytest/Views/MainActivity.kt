@@ -14,6 +14,7 @@ import com.example.companytest.R
 import com.example.companytest.RxBus
 import com.example.companytest.adapter.ImagesAdapter
 import com.example.companytest.adapter.ImagesAdapter.OnItemDelete
+import com.example.companytest.showToast
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_main.*
@@ -62,7 +63,8 @@ class MainActivity : AppCompatActivity() {
                     smoothScrollToLastItemPosition()
                 } catch (e: Exception) {
                     e.printStackTrace()
-                }            }
+                }
+            }
 
             override fun onError(e: Throwable) {
             }
@@ -71,6 +73,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun smoothScrollToLastItemPosition() {
         Handler().postDelayed({ allFiles?.size?.minus(1)?.let { recy_image?.smoothScrollToPosition(it) } }, 1300)
+        showToast("Image successfully Added scroll right to view previous images if added")
     }
 
     private fun getAllDataAndNotifyAdapter() {
