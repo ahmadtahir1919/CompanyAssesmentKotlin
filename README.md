@@ -6,7 +6,7 @@
 
 
 <p align="center">
-An Android App that can save every user images in a seprate user identity for example when user A signup and then login and add images selected from the gallery or camera images shows only A user same as if B user signup and then login B user images shows only to B user.Basically it's a test base app of google's <b>#30daysOfKotlin</b> bootcamp.In this project there are many features of kotlin used in coding sections(e.g: Extension function,Data classes,nullability,arrays,Architecture component(Live Data),Room Database,RecyclerView and many other.Students will find this project helpful for them in depth learning of kotlin programming in android development. Fell free to share and give star or fork this project. Happy coding :)
+An Android App that can save every user images in a separate user identity for example when user A sign up and then login and add images selected from the gallery or camera images shows only A user same as if B user signup and then login B user images shows only to B user.Basically it's a test base app of google's <b>#30daysOfKotlin</b> bootcamp.In this project there are many features of kotlin used in coding sections(e.g: Extension function,Data classes,nullability,arrays,Architecture component(Live Data),Room Database,RecyclerView and many other.Students will find this project helpful for them in depth learning of kotlin programming in android development. Fell free to share and give star or fork this project. Happy coding :)
 </p>
 
 # Usage
